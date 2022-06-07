@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h4 class="text-center">Tubes Teori Bahasa & Automata</h4>
+      <h5 class="text-center">
+        Bacharuddin Adieb Pratama (1301218587), Nur Wakhidah Fitri Amalia
+        (1301218588)
+      </h5>
+      <br />
+      <h4 class="text-center">Daftar Kata - Kata</h4>
+      <table class="table table-hover">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Bahasa Indonesia</th>
+          <th scope="col">Bahasa Italia</th>
+        </tr>
+        <tr>
+          <td scope="row">1</td>
+          <td>saya</td>
+          <td>io</td>
+        </tr>
+        <tr>
+          <td scope="row">2</td>
+          <td>kamu</td>
+          <td>voi</td>
+        </tr>
+        <tr>
+          <td scope="row">3</td>
+          <td>kita</td>
+          <td>noi</td>
+        </tr>
+        <tr>
+          <td scope="row">4</td>
+          <td>makan</td>
+          <td>mangiare</td>
+        </tr>
+        <tr>
+          <td scope="row">5</td>
+          <td>minum</td>
+          <td>bere</td>
+        </tr>
+        <tr>
+          <td scope="row">6</td>
+          <td>mengenakan</td>
+          <td>logorante</td>
+        </tr>
+        <tr>
+          <td scope="row">7</td>
+          <td>air</td>
+          <td>acqua</td>
+        </tr>
+        <tr>
+          <td scope="row">8</td>
+          <td>soda</td>
+          <td>bibita</td>
+        </tr>
+        <tr>
+          <td scope="row">9</td>
+          <td>nasi</td>
+          <td>riso</td>
+        </tr>
+        <tr>
+          <td scope="row">10</td>
+          <td>baju</td>
+          <td>vestire</td>
+        </tr>
+      </table>
+      <div class="col-md-4">
+        <label id="kata-label" for="kata" class="form-label"
+          >Input Kalimat (Bahasa Italia)</label
+        >
+        <input type="text" class="form-control" id="kata" required />
+        <div id="error-text" class="invalid-feedback"></div>
+        <!-- <input id="kata" type="text" placeholder="<noun> <verb> <noun>" /> -->
+        <div id="hasil-lexical" class="mt-3"></div>
+        <div id="hasil-parser" class="mt-4"></div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./utils.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

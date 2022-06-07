@@ -26,63 +26,80 @@
           <th scope="col">#</th>
           <th scope="col">Bahasa Indonesia</th>
           <th scope="col">Bahasa Italia</th>
+          <th scope="col">Jenis Kata</th>
         </tr>
         <tr>
           <td scope="row">1</td>
           <td>saya</td>
           <td>io</td>
+          <td>Noun</td>
         </tr>
         <tr>
           <td scope="row">2</td>
           <td>kamu</td>
           <td>voi</td>
+          <td>Noun</td>
         </tr>
         <tr>
           <td scope="row">3</td>
           <td>kita</td>
           <td>noi</td>
+          <td>Noun</td>
         </tr>
         <tr>
           <td scope="row">4</td>
-          <td>makan</td>
-          <td>mangiare</td>
+          <td>soda</td>
+          <td>bibita</td>
+          <td>Noun</td>
         </tr>
         <tr>
           <td scope="row">5</td>
-          <td>minum</td>
-          <td>bere</td>
+          <td>nasi</td>
+          <td>riso</td>
+          <td>Noun</td>
         </tr>
         <tr>
           <td scope="row">6</td>
-          <td>mengenakan</td>
-          <td>logorante</td>
+          <td>baju</td>
+          <td>vestire</td>
+          <td>Noun</td>
         </tr>
         <tr>
           <td scope="row">7</td>
           <td>air</td>
           <td>acqua</td>
+          <td>Noun</td>
         </tr>
         <tr>
           <td scope="row">8</td>
-          <td>soda</td>
-          <td>bibita</td>
+          <td>makan</td>
+          <td>mangiare</td>
+          <td>Verb</td>
         </tr>
         <tr>
           <td scope="row">9</td>
-          <td>nasi</td>
-          <td>riso</td>
+          <td>minum</td>
+          <td>bere</td>
+          <td>Verb</td>
         </tr>
         <tr>
           <td scope="row">10</td>
-          <td>baju</td>
-          <td>vestire</td>
+          <td>mengenakan</td>
+          <td>logorante</td>
+          <td>Verb</td>
         </tr>
       </table>
       <div class="col-md-4">
         <label id="kata-label" for="kata" class="form-label"
           >Input Kalimat (Bahasa Italia)</label
         >
-        <input type="text" class="form-control" id="kata" required />
+        <input
+          type="text"
+          class="form-control"
+          id="kata"
+          placeholder="<Noun> <Verb> <Noun>"
+          required
+        />
         <div id="error-text" class="invalid-feedback"></div>
         <!-- <input id="kata" type="text" placeholder="<noun> <verb> <noun>" /> -->
         <div id="hasil-lexical" class="mt-3"></div>
